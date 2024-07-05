@@ -14,12 +14,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+
+<!-- CSS STYLE FILES-->
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="mediaqueries.css">
 
 </head>
 
+<!-- CONTENTS-->
+
 <body>
+
+    <!-- HEADER-->
+
     <nav id="desktop-nav">
         <div class="logo">My Portfolio</div>
         <div>
@@ -32,23 +39,8 @@
         </div>
     </nav>  
 
-    <nav id="hamburger-nav">
-        <div class="logo">My Portfolio</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
 
+    <!-- PROFILE-->
     <section id="profile">
 
         <div class="section__pic-container">
@@ -75,6 +67,8 @@
 
     </section>
 
+
+    <!-- ABOUT -->
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
@@ -92,7 +86,7 @@
                     </div>  
                 </div>
                 <div class="text-container">
-                    <p>I am John Fredderick Bacud, a current college freshman taking BS in Information Technology in Southville International School and Colleges.</p>
+                    <p>I am John Fredderick Bacud, a current college freshman taking Bachelor of Science in Information Technology at Southville International School and Colleges.</p>
                     <p>I love exploring and learning new topics 📕 Creating and tinkering with things 🛠️
                         and I have an attachment with video games, books, and music 🎮
                     </p>
@@ -102,6 +96,8 @@
 
     </section>
 
+
+    <!-- SKILLS-->
     <section id="skills">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Skills</h1>
@@ -176,6 +172,7 @@
 
     </section>
 
+    <!-- PROJECTS-->
     <section id="projects">
 
         <p class="section__text__p1">Browse My</p>
@@ -189,12 +186,18 @@
                     </div>
                         <h2 class ="skills-sub-title project-title">Project 1</h2>
                         <h4 class ="project-sub-title-1">Portfolio Website Using HTML and CSS</h4>
-                        <p class="project-description-1">This project was made for a group assignment in one of my subjects at college. I was responsible for editing and adding the elements that were required
-                        to be shown, such as the subjects we had at that semester and information on all of the members. I personally struggled despite being required to use a template for this project
-                        as this was my major introduction to HTML and CSS </p> 
+                        <p class="project-description-1">This project was made for a group assignment in one of my subjects at college. I was responsible for editing and adding elements that were either 
+                            not needed, required, and desired for the project, such as the sections where it displayed subjects we had at that semester and the image carousel, which
+                            was added through bootstrap. I personally struggled despite being required to use a template for this project
+                            as this was my major introduction to HTML and CSS </p> 
                     <div class = "btn-container">
                         <button class ="btn btn-color-2 project-btn-1" onclick="location.href='https://jfc-bacud.github.io/Intro-To-Computing_Website/'">
                             Link to Project
+                        </button>
+                    </div>
+                    <div class ="btn-container">
+                        <button class ="btn btn-color-1 project-btn-1" onclick="location.href='https://www.tooplate.com/view/2125-artxibition'">
+                            Link to Template
                         </button>
                     </div>
                 </div>
@@ -236,6 +239,7 @@
         
     </section>
  
+    <!-- CONTACTS-->
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Information</h1>
@@ -251,6 +255,7 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div>
             <ul class="nav-links">
@@ -262,6 +267,5 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
